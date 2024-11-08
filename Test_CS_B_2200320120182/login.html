@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        body{
+            background-color: aqua;
+            color: black;
+        }
+        .container{
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            padding:20px;
+            color: black;
+            width:50%;
+            min-height:fit-content;
+            background-color: white;
+        }
+        input[type="userid"],input[type="password"]{
+            margin:10px;
+            padding-bottom: 10px ;
+            width:100%;
+            height:20px;
+        }
+        input[type="submit"]{
+            background-color: red;
+            color: black;
+            border-color: rgb(30, 29, 28);
+            border-radius: 2px;
+            margin-right: 10px;
+            margin-top: 13px;
+            width: 40%;
+            margin-bottom: 15px;
+            height:30px;
+            font-size: large;
+        }
+        input[type="reset"]{
+            background-color:aqua;
+            border-color: rgb(30,29,28);
+            border-radius: 2px;
+            color: black;
+            margin-right: 10px;
+            margin-top: 13px;
+            font-size: large;
+            margin-bottom: 15px;
+            width: 40%;
+            height:30px;
+        }
+        
+
+        
+    </style>
+        <div class="container">
+            <center>
+            <h1>LOGIN</h1></center>
+        </div>
+    <form name="login" method="post" action="createuse">
+        <label for="user id"><b>User Id</b></label>
+        <input type="user id" name="user id" id="user id" placeholder="Enter valid id"><br><br>
+        <label for="password"><b>Password</b></label>
+        <input type="password" name="password" id="password" placeholder="Enter valid password"><br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+
+    </form>
+    
+</body>
+</html>
